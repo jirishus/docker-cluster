@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  wishlist-api:
+    image: wishlist-api
+    ports:
+      - '3000:3000' 
+  purchase-api:
+    image: purchase-api
+    ports:
+      - '3005:3005'
